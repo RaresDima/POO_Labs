@@ -1,3 +1,15 @@
+/*
+ * A simple implementation of a double linked list using a template to make
+ * the type of the value stored in the nodes flaxible.
+ * The most common functions are implemented:
+ * addElement(value)
+ * removeElement(index)
+ * elementAt(index)
+ * indexOf(value) - the index of the first occurence, -1 otherwise
+ * contains(value)
+ * displayAll()
+ */
+
 #include <iostream>
 #include <cstdlib>
 
